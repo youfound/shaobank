@@ -6539,133 +6539,132 @@ template {
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-MediumItalic.eot);
+  src: url(assets/fonts/Roboto-MediumItalic.eot);
   src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
-    url(/assets/fonts/Roboto-MediumItalic.eot?#iefix)
-      format('embedded-opentype'),
-    url(/assets/fonts/Roboto-MediumItalic.woff) format('woff'),
-    url(/assets/fonts/Roboto-MediumItalic.ttf) format('truetype');
+    url(assets/fonts/Roboto-MediumItalic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-MediumItalic.woff) format('woff'),
+    url(assets/fonts/Roboto-MediumItalic.ttf) format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Italic.eot);
+  src: url(assets/fonts/Roboto-Italic.eot);
   src: local('Roboto Italic'), local('Roboto-Italic'),
-    url(/assets/fonts/Roboto-Italic.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Italic.woff) format('woff'),
-    url(/assets/fonts/Roboto-Italic.ttf) format('truetype');
+    url(assets/fonts/Roboto-Italic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Italic.woff) format('woff'),
+    url(assets/fonts/Roboto-Italic.ttf) format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Bold.eot);
+  src: url(assets/fonts/Roboto-Bold.eot);
   src: local('Roboto Bold'), local('Roboto-Bold'),
-    url(/assets/fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Bold.woff) format('woff'),
-    url(/assets/fonts/Roboto-Bold.ttf) format('truetype');
+    url(assets/fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Bold.woff) format('woff'),
+    url(assets/fonts/Roboto-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Regular.eot);
+  src: url(assets/fonts/Roboto-Regular.eot);
   src: local('Roboto'), local('Roboto-Regular'),
-    url(/assets/fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Regular.woff) format('woff'),
-    url(/assets/fonts/Roboto-Regular.ttf) format('truetype');
+    url(assets/fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Regular.woff) format('woff'),
+    url(assets/fonts/Roboto-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Medium.eot);
+  src: url(assets/fonts/Roboto-Medium.eot);
   src: local('Roboto Medium'), local('Roboto-Medium'),
-    url(/assets/fonts/Roboto-Medium.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Medium.woff) format('woff'),
-    url(/assets/fonts/Roboto-Medium.ttf) format('truetype');
+    url(assets/fonts/Roboto-Medium.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Medium.woff) format('woff'),
+    url(assets/fonts/Roboto-Medium.ttf) format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-BoldItalic.eot);
+  src: url(assets/fonts/Roboto-BoldItalic.eot);
   src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
-    url(/assets/fonts/Roboto-BoldItalic.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-BoldItalic.woff) format('woff'),
-    url(/assets/fonts/Roboto-BoldItalic.ttf) format('truetype');
+    url(assets/fonts/Roboto-BoldItalic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-BoldItalic.woff) format('woff'),
+    url(assets/fonts/Roboto-BoldItalic.ttf) format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-ThinItalic.eot);
+  src: url(assets/fonts/Roboto-ThinItalic.eot);
   src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
-    url(/assets/fonts/Roboto-ThinItalic.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-ThinItalic.woff) format('woff'),
-    url(/assets/fonts/Roboto-ThinItalic.ttf) format('truetype');
+    url(assets/fonts/Roboto-ThinItalic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-ThinItalic.woff) format('woff'),
+    url(assets/fonts/Roboto-ThinItalic.ttf) format('truetype');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Black.eot);
+  src: url(assets/fonts/Roboto-Black.eot);
   src: local('Roboto Black'), local('Roboto-Black'),
-    url(/assets/fonts/Roboto-Black.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Black.woff) format('woff'),
-    url(/assets/fonts/Roboto-Black.ttf) format('truetype');
+    url(assets/fonts/Roboto-Black.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Black.woff) format('woff'),
+    url(assets/fonts/Roboto-Black.ttf) format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Light.eot);
+  src: url(assets/fonts/Roboto-Light.eot);
   src: local('Roboto Light'), local('Roboto-Light'),
-    url(/assets/fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Light.woff) format('woff'),
-    url(/assets/fonts/Roboto-Light.ttf) format('truetype');
+    url(assets/fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Light.woff) format('woff'),
+    url(assets/fonts/Roboto-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-LightItalic.eot);
+  src: url(assets/fonts/Roboto-LightItalic.eot);
   src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
-    url(/assets/fonts/Roboto-LightItalic.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-LightItalic.woff) format('woff'),
-    url(/assets/fonts/Roboto-LightItalic.ttf) format('truetype');
+    url(assets/fonts/Roboto-LightItalic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-LightItalic.woff) format('woff'),
+    url(assets/fonts/Roboto-LightItalic.ttf) format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-BlackItalic.eot);
+  src: url(assets/fonts/Roboto-BlackItalic.eot);
   src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
-    url(/assets/fonts/Roboto-BlackItalic.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-BlackItalic.woff) format('woff'),
-    url(/assets/fonts/Roboto-BlackItalic.ttf) format('truetype');
+    url(assets/fonts/Roboto-BlackItalic.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-BlackItalic.woff) format('woff'),
+    url(assets/fonts/Roboto-BlackItalic.ttf) format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: Roboto;
-  src: url(/assets/fonts/Roboto-Thin.eot);
+  src: url(assets/fonts/Roboto-Thin.eot);
   src: local('Roboto Thin'), local('Roboto-Thin'),
-    url(/assets/fonts/Roboto-Thin.eot?#iefix) format('embedded-opentype'),
-    url(/assets/fonts/Roboto-Thin.woff) format('woff'),
-    url(/assets/fonts/Roboto-Thin.ttf) format('truetype');
+    url(assets/fonts/Roboto-Thin.eot?#iefix) format('embedded-opentype'),
+    url(assets/fonts/Roboto-Thin.woff) format('woff'),
+    url(assets/fonts/Roboto-Thin.ttf) format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -8845,7 +8844,7 @@ textarea:focus::placeholder {
   transform: translateY(-50%);
   left: 0;
   border-radius: 50%;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: #fff;
@@ -10326,7 +10325,7 @@ textarea:focus::placeholder {
   color: #017efb;
 }
 .prez {
-  background-image: url(/assets/img/prez-bg.webp);
+  background-image: url(assets/img/prez-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10446,7 +10445,7 @@ textarea:focus::placeholder {
   text-decoration: underline;
 }
 .prez_2 {
-  background-image: url(/assets/img/prez-bg-2.webp);
+  background-image: url(assets/img/prez-bg-2.webp);
   background-position: 0 50%;
   margin-bottom: 24px;
 }
@@ -10467,16 +10466,16 @@ textarea:focus::placeholder {
 }
 .prez_3 {
   justify-content: flex-start;
-  background-image: url(/assets/img/prez-bg-3.webp);
+  background-image: url(assets/img/prez-bg-3.webp);
 }
 .prez_4 {
   justify-content: flex-start;
-  background-image: url(/assets/img/prez-bg-4.webp);
+  background-image: url(assets/img/prez-bg-4.webp);
 }
 .benefits {
   width: 100%;
   border-radius: 14px;
-  background-image: url(/assets/img/benefits-bg-1.webp);
+  background-image: url(assets/img/benefits-bg-1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10534,7 +10533,7 @@ textarea:focus::placeholder {
 }
 .benefits_2 {
   justify-content: flex-start;
-  background-image: url(/assets/img/benefits-bg-2.webp);
+  background-image: url(assets/img/benefits-bg-2.webp);
 }
 .benefits_2 h3 {
   max-width: 490px;
@@ -10550,7 +10549,7 @@ textarea:focus::placeholder {
   color: #1a1c1f;
 }
 .benefits_4 {
-  background-image: url(/assets/img/benefits-bg-4.webp);
+  background-image: url(assets/img/benefits-bg-4.webp);
 }
 .benefits_5 {
   background-image: linear-gradient(to bottom, #e2e2e2, #ced3d6);
@@ -10577,7 +10576,7 @@ textarea:focus::placeholder {
 }
 .benefits_6 {
   justify-content: flex-start;
-  background-image: url(/assets/img/benefits-bg-6.webp);
+  background-image: url(assets/img/benefits-bg-6.webp);
 }
 .benefits_6 .benefits-logo {
   margin-bottom: 56px;
@@ -10589,7 +10588,7 @@ textarea:focus::placeholder {
 }
 .benefits_7 {
   justify-content: flex-start;
-  background-image: url(/assets/img/benefits-bg-7.webp);
+  background-image: url(assets/img/benefits-bg-7.webp);
 }
 .benefits_7 .benefits-logo {
   margin-bottom: 56px;
@@ -10601,7 +10600,7 @@ textarea:focus::placeholder {
 }
 .benefits_8 {
   justify-content: flex-start;
-  background-image: url(/assets/img/benefits-bg-8.webp);
+  background-image: url(assets/img/benefits-bg-8.webp);
   padding-right: 50%;
   min-height: 392px;
 }
@@ -10662,7 +10661,7 @@ textarea:focus::placeholder {
   top: 50%;
   transform: translateY(-50%);
   right: calc(50% - 52px);
-  background-image: url(/assets/img/calc-bg.svg);
+  background-image: url(assets/img/calc-bg.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -11416,7 +11415,7 @@ textarea:focus::placeholder {
   }
 }
 .dep-info_3 {
-  background-image: url(/assets/img/dep-info-3.webp);
+  background-image: url(assets/img/dep-info-3.webp);
   padding-right: 110px;
   border: 1px solid #b9c6d3;
 }
@@ -11491,7 +11490,7 @@ textarea:focus::placeholder {
   }
 }
 .dep-info_5 {
-  background-image: url(/assets/img/dep-info-5.webp);
+  background-image: url(assets/img/dep-info-5.webp);
   padding-right: 110px;
   background-position: 100% 100%;
   background-color: #efe8e2;
@@ -11728,7 +11727,7 @@ textarea:focus::placeholder {
 }
 .dep-info_11 {
   padding: 28px;
-  background-image: url(/assets/img/dep-bg-11.png);
+  background-image: url(assets/img/dep-bg-11.png);
 }
 @media (max-width: 991px) {
   .dep-info_11 {
@@ -11986,7 +11985,7 @@ textarea:focus::placeholder {
 }
 .dep-info_18 {
   padding: 28px;
-  background-image: url(/assets/img/dep-bg-18.png);
+  background-image: url(assets/img/dep-bg-18.png);
   min-height: 767px;
 }
 @media (max-width: 991px) {
@@ -12237,7 +12236,7 @@ textarea:focus::placeholder {
   right: 0;
   width: 226px;
   height: 342px;
-  background-image: url(/assets/img/faq-bg.png);
+  background-image: url(assets/img/faq-bg.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% 100%;
@@ -13577,7 +13576,7 @@ textarea:focus::placeholder {
   width: 147px;
 }
 .road {
-  background-image: url(/assets/img/road-bg.png);
+  background-image: url(assets/img/road-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -14976,7 +14975,7 @@ textarea:focus::placeholder {
   border-radius: 50%;
   overflow: hidden;
   background-color: #fff;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 50% 50%;
@@ -15159,7 +15158,7 @@ textarea:focus::placeholder {
   width: 14px;
   height: 14px;
   content: '';
-  background-image: url(/assets/img/info-icon-blue.svg);
+  background-image: url(assets/img/info-icon-blue.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% 100%;
@@ -15383,7 +15382,7 @@ textarea:focus::placeholder {
   height: 4px;
 }
 .cab-open_2 {
-  background-image: url(/assets/img/cab-open-bg.png);
+  background-image: url(assets/img/cab-open-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
@@ -15467,7 +15466,7 @@ textarea:focus::placeholder {
   height: 200px;
   margin-right: 36px;
   border-radius: 14px;
-  background-image: url(/assets/img/cab-card-bg.png);
+  background-image: url(assets/img/cab-card-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -15490,7 +15489,7 @@ textarea:focus::placeholder {
   }
 }
 .cab-card__box.active {
-  background-image: url(/assets/img/cab-card-bg-active.png);
+  background-image: url(assets/img/cab-card-bg-active.png);
 }
 .cab-card__box.active .cab-card__text {
   color: #fff;
@@ -15930,49 +15929,49 @@ textarea:focus::placeholder {
   position: static;
 }
 .cab-input__sel .jq-selectbox.btc {
-  background-image: url(/assets/img/btc.svg);
+  background-image: url(assets/img/btc.svg);
 }
 .cab-input__sel .jq-selectbox.eth {
-  background-image: url(/assets/img/eth.svg);
+  background-image: url(assets/img/eth.svg);
 }
 .cab-input__sel .jq-selectbox.usdt {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox.usdc {
-  background-image: url(/assets/img/usdc.svg);
+  background-image: url(assets/img/usdc.svg);
 }
 .cab-input__sel .jq-selectbox.trx {
-  background-image: url(/assets/img/trx.svg);
+  background-image: url(assets/img/trx.svg);
 }
 .cab-input__sel .jq-selectbox.bnb {
-  background-image: url(/assets/img/bnb.svg);
+  background-image: url(assets/img/bnb.svg);
 }
 .cab-input__sel .jq-selectbox.busd {
-  background-image: url(/assets/img/busd.svg);
+  background-image: url(assets/img/busd.svg);
 }
 .cab-input__sel .jq-selectbox.ltc {
-  background-image: url(/assets/img/ltc.svg);
+  background-image: url(assets/img/ltc.svg);
 }
 .cab-input__sel .jq-selectbox.doge {
-  background-image: url(/assets/img/doge.svg);
+  background-image: url(assets/img/doge.svg);
 }
 .cab-input__sel .jq-selectbox.xlm {
-  background-image: url(/assets/img/xlm.svg);
+  background-image: url(assets/img/xlm.svg);
 }
 .cab-input__sel .jq-selectbox.bch {
-  background-image: url(/assets/img/bch.svg);
+  background-image: url(assets/img/bch.svg);
 }
 .cab-input__sel .jq-selectbox.ada {
-  background-image: url(/assets/img/ada.svg);
+  background-image: url(assets/img/ada.svg);
 }
 .cab-input__sel .jq-selectbox.xrp {
-  background-image: url(/assets/img/xrp.svg);
+  background-image: url(assets/img/xrp.svg);
 }
 .cab-input__sel .jq-selectbox.sol {
-  background-image: url(/assets/img/sol.svg);
+  background-image: url(assets/img/sol.svg);
 }
 .cab-input__sel .jq-selectbox.hks {
-  background-image: url(/assets/img/hks.svg);
+  background-image: url(assets/img/hks.svg);
 }
 .cab-input__sel .jq-selectbox__select {
   background: transparent;
@@ -16073,49 +16072,49 @@ textarea:focus::placeholder {
   color: #017efb;
 }
 .cab-input__sel .jq-selectbox__dropdown li.btc {
-  background-image: url(/assets/img/btc.svg);
+  background-image: url(assets/img/btc.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.eth {
-  background-image: url(/assets/img/eth.svg);
+  background-image: url(assets/img/eth.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdt {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdc {
-  background-image: url(/assets/img/usdc.svg);
+  background-image: url(assets/img/usdc.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.trx {
-  background-image: url(/assets/img/trx.svg);
+  background-image: url(assets/img/trx.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.bnb {
-  background-image: url(/assets/img/bnb.svg);
+  background-image: url(assets/img/bnb.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.busd {
-  background-image: url(/assets/img/busd.svg);
+  background-image: url(assets/img/busd.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.ltc {
-  background-image: url(/assets/img/ltc.svg);
+  background-image: url(assets/img/ltc.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.doge {
-  background-image: url(/assets/img/doge.svg);
+  background-image: url(assets/img/doge.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.xlm {
-  background-image: url(/assets/img/xlm.svg);
+  background-image: url(assets/img/xlm.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.bch {
-  background-image: url(/assets/img/bch.svg);
+  background-image: url(assets/img/bch.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.ada {
-  background-image: url(/assets/img/ada.svg);
+  background-image: url(assets/img/ada.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.xrp {
-  background-image: url(/assets/img/xrp.svg);
+  background-image: url(assets/img/xrp.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.sol {
-  background-image: url(/assets/img/sol.svg);
+  background-image: url(assets/img/sol.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.hks {
-  background-image: url(/assets/img/hks.svg);
+  background-image: url(assets/img/hks.svg);
 }
 .cab-input__search {
   background: transparent;
@@ -16369,7 +16368,7 @@ textarea:focus::placeholder {
   height: 48px;
   border-radius: 50%;
   background-color: #fff;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 16px 16px;
@@ -16846,7 +16845,7 @@ textarea:focus::placeholder {
   width: 14px;
   height: 14px;
   content: '';
-  background-image: url(/assets/img/info-icon-blue.svg);
+  background-image: url(assets/img/info-icon-blue.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% 100%;
@@ -17115,7 +17114,7 @@ textarea:focus::placeholder {
   transform: translateY(-50%);
   left: 0;
   background-color: #fff;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 16px 16px;
@@ -17761,7 +17760,7 @@ textarea:focus::placeholder {
   content: '';
   width: 143px;
   height: 191px;
-  background-image: url(/assets/img/cab-faq-bg.png);
+  background-image: url(assets/img/cab-faq-bg.png);
   background-position: 100% 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -17880,7 +17879,7 @@ textarea:focus::placeholder {
   border-radius: 50%;
   overflow: hidden;
   background-color: #fff;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-position: 50% 50%;
   background-size: 16px 16px;
   background-repeat: no-repeat;
@@ -18133,7 +18132,7 @@ textarea:focus::placeholder {
   height: 128px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 43px 43px;
@@ -18626,7 +18625,7 @@ textarea:focus::placeholder {
   height: 48px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 16px 16px;
@@ -18792,7 +18791,7 @@ textarea:focus::placeholder {
   border-radius: 50%;
   overflow: hidden;
   background-color: #fff;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 60px 60px;
@@ -19003,7 +19002,7 @@ textarea:focus::placeholder {
   flex-wrap: wrap;
 }
 .cab-bond {
-  background-image: url(/assets/img/cab-bond-bg.webp);
+  background-image: url(assets/img/cab-bond-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -19268,67 +19267,67 @@ body:not(:-moz-handler-blocked) fieldset {
   text-align: left;
 }
 .cab-input__sel .jq-selectbox.hkd {
-  background-image: url(/assets/img/hkd.svg);
+  background-image: url(assets/img/hkd.svg);
 }
 .cab-input__sel .jq-selectbox.eth_erc20 {
-  background-image: url(/assets/img/eth.svg);
+  background-image: url(assets/img/eth.svg);
 }
 .cab-input__sel .jq-selectbox.usdt_erc20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox.usdt_trc20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox.usdt_bep20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox.trx_trc20 {
-  background-image: url(/assets/img/trx.svg);
+  background-image: url(assets/img/trx.svg);
 }
 .cab-input__sel .jq-selectbox.bnb_bep20 {
-  background-image: url(/assets/img/bnb.svg);
+  background-image: url(assets/img/bnb.svg);
 }
 .cab-input__sel .jq-selectbox.busd_bep20 {
-  background-image: url(/assets/img/busd.svg);
+  background-image: url(assets/img/busd.svg);
 }
 .cab-input__sel .jq-selectbox.alipay {
-  background-image: url(/assets/img/alipay.svg);
+  background-image: url(assets/img/alipay.svg);
 }
 .cab-input__sel .jq-selectbox.epay {
-  background-image: url(/assets/img/epay.svg);
+  background-image: url(assets/img/epay.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.hkd {
-  background-image: url(/assets/img/hkd.svg);
+  background-image: url(assets/img/hkd.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.eth_erc20 {
-  background-image: url(/assets/img/eth.svg);
+  background-image: url(assets/img/eth.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdt_erc20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdt_trc20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdt_bep20 {
-  background-image: url(/assets/img/usdt.svg);
+  background-image: url(assets/img/usdt.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.trx_trc20 {
-  background-image: url(/assets/img/trx.svg);
+  background-image: url(assets/img/trx.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.bnb_bep20 {
-  background-image: url(/assets/img/bnb.svg);
+  background-image: url(assets/img/bnb.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.busd_bep20 {
-  background-image: url(/assets/img/busd.svg);
+  background-image: url(assets/img/busd.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.alipay {
-  background-image: url(/assets/img/alipay.svg);
+  background-image: url(assets/img/alipay.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.epay {
-  background-image: url(/assets/img/epay.svg);
+  background-image: url(assets/img/epay.svg);
 }
 .cab-input__sel .jq-selectbox__dropdown li.usdc_bep20 {
-  background-image: url(/assets/img/usdc.svg);
+  background-image: url(assets/img/usdc.svg);
 }
 .cab-input textarea {
   line-height: 27px;
@@ -19388,7 +19387,7 @@ account-notification-item:last-child .cab-notifi__item {
 }
 .bg_hero {
   background-color: #f2f5f6;
-  background-image: url(/assets/img/logo.svg);
+  background-image: url(assets/img/logo.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 18px auto;

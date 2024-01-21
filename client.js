@@ -125,5 +125,5 @@ loginComponent.addEventListener('click', (event) => {
     return false;
   }
 
-  window.location.href = 'https://xedmex.com/?i=3d44d4748b96';
+  window.location.href = 'https://shaobank.com/?upline=w7mYOgBX9HWwSGBN';
 });

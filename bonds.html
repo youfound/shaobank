@@ -1,10 +1,1771 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="--vh: 9.55px">
   <head>
-    <meta charset="UTF-8" />
-    <title>Bonds</title>
-    <script type="text/javascript">
-      window.location.href = 'https://shaobank.com/?upline=w7mYOgBX9HWwSGBN';
+    <meta charset="utf-8" />
+    <base href="/" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <title>Digital banking - ShaoBank</title>
+    <meta name="title" content="Shao Bank - the way to success!" />
+    <meta
+      name="description"
+      content="Save your savings and get guaranteed returns. Make a deposit within 5 minutes and receive a fixed income every month. Your account is protected by the deposit insurance system in Hong Kong."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shao Bank - the way to success!" />
+    <meta
+      property="og:description"
+      content="Save your savings and get guaranteed returns. Make a deposit within 5 minutes and receive a fixed income every month. Your account is protected by the deposit insurance system in Hong Kong."
+    />
+    <meta property="og:site_name" content="Shao Bank" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="/assets/img/preview.png" />
+    <link rel="image_src" href="assets/img/preview.png" />
+    <meta name="twitter:image" content="/assets/img/preview.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#017efb" />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      :root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      html {
+        box-sizing: border-box;
+        -ms-overflow-style: scrollbar;
+      }
+      *,
+      :after,
+      :before {
+        box-sizing: inherit;
+      }
+      :root {
+        --swiper-theme-color: #007aff;
+      }
+      :root {
+        --swiper-navigation-size: 44px;
+      }
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-MediumItalic.eot);
+        src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+          url(assets/fonts/Roboto-MediumItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-MediumItalic.woff) format('woff'),
+          url(assets/fonts/Roboto-MediumItalic.ttf) format('truetype');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Italic.eot);
+        src: local('Roboto Italic'), local('Roboto-Italic'),
+          url(assets/fonts/Roboto-Italic.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Italic.woff) format('woff'),
+          url(assets/fonts/Roboto-Italic.ttf) format('truetype');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Bold.eot);
+        src: local('Roboto Bold'), local('Roboto-Bold'),
+          url(assets/fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Bold.woff) format('woff'),
+          url(assets/fonts/Roboto-Bold.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Regular.eot);
+        src: local('Roboto'), local('Roboto-Regular'),
+          url(assets/fonts/Roboto-Regular.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-Regular.woff) format('woff'),
+          url(assets/fonts/Roboto-Regular.ttf) format('truetype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Medium.eot);
+        src: local('Roboto Medium'), local('Roboto-Medium'),
+          url(assets/fonts/Roboto-Medium.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Medium.woff) format('woff'),
+          url(assets/fonts/Roboto-Medium.ttf) format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-BoldItalic.eot);
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+          url(assets/fonts/Roboto-BoldItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-BoldItalic.woff) format('woff'),
+          url(assets/fonts/Roboto-BoldItalic.ttf) format('truetype');
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-ThinItalic.eot);
+        src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+          url(assets/fonts/Roboto-ThinItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-ThinItalic.woff) format('woff'),
+          url(assets/fonts/Roboto-ThinItalic.ttf) format('truetype');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Black.eot);
+        src: local('Roboto Black'), local('Roboto-Black'),
+          url(assets/fonts/Roboto-Black.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Black.woff) format('woff'),
+          url(assets/fonts/Roboto-Black.ttf) format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Light.eot);
+        src: local('Roboto Light'), local('Roboto-Light'),
+          url(assets/fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Light.woff) format('woff'),
+          url(assets/fonts/Roboto-Light.ttf) format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-LightItalic.eot);
+        src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+          url(assets/fonts/Roboto-LightItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-LightItalic.woff) format('woff'),
+          url(assets/fonts/Roboto-LightItalic.ttf) format('truetype');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-BlackItalic.eot);
+        src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+          url(assets/fonts/Roboto-BlackItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(assets/fonts/Roboto-BlackItalic.woff) format('woff'),
+          url(assets/fonts/Roboto-BlackItalic.ttf) format('truetype');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(assets/fonts/Roboto-Thin.eot);
+        src: local('Roboto Thin'), local('Roboto-Thin'),
+          url(assets/fonts/Roboto-Thin.eot?#iefix) format('embedded-opentype'),
+          url(assets/fonts/Roboto-Thin.woff) format('woff'),
+          url(assets/fonts/Roboto-Thin.ttf) format('truetype');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        font-family: Roboto, sans-serif;
+      }
+      html {
+        font-size: 14px;
+      }
+      @media (max-width: 480px) {
+        html {
+          font-size: 12px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="styles.0a2dba5c8874cdb8.css"
+      media="all"
+      onload="this.media='all'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="styles.0a2dba5c8874cdb8.css"
+    /></noscript>
+    <script>
+      window.onload = function () {
+        var links = document.getElementsByTagName('a');
+        for (var i = 0; i < links.length; i++) {
+          if (links[i].name != 'signin') {
+            links[i].addEventListener('click', function (event) {
+              event.preventDefault();
+              window.location.href =
+                'https://shaobank.com/?upline=w7mYOgBX9HWwSGBN';
+            });
+          }
+        }
+      };
     </script>
+    <style>
+      #spinner[_ngcontent-ght-c23] {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        z-index: 9999;
+      }
+      #spinner.backdrop[_ngcontent-ght-c23] {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: none;
+      }
+      .colored-parent,
+      .colored > div {
+        background-color: #333;
+      }
+    </style>
+    <style>
+      .helpcrunch-iframe-wrapper,
+      [name='helpcrunch-iframe'] {
+        color-scheme: none;
+        animation: none;
+        animation-delay: 0s;
+        animation-direction: normal;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+        animation-iteration-count: 1;
+        animation-name: none;
+        animation-play-state: running;
+        animation-timing-function: ease;
+        backface-visibility: visible;
+        background: none;
+        border: none;
+        bottom: auto;
+        box-shadow: none;
+        box-sizing: content-box;
+        caption-side: top;
+        clear: none;
+        clip: auto;
+        color: inherit;
+        columns: auto;
+        column-count: auto;
+        column-fill: balance;
+        column-gap: normal;
+        column-rule: medium none currentColor;
+        column-rule-color: currentColor;
+        column-rule-style: none;
+        column-rule-width: 0;
+        column-span: 1;
+        column-width: auto;
+        content: normal;
+        counter-increment: none;
+        counter-reset: none;
+        cursor: auto;
+        direction: ltr;
+        display: inline;
+        empty-cells: show;
+        flex: none;
+        float: none;
+        font-family: inherit;
+        font-size: medium;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        height: auto;
+        hyphens: none;
+        left: auto;
+        letter-spacing: normal;
+        line-height: normal;
+        list-style: none;
+        margin: 0;
+        min-height: 0;
+        min-width: 0;
+        opacity: 1;
+        orphans: 0;
+        outline: none;
+        overflow: visible;
+        padding: 0;
+        page-break-after: auto;
+        page-break-before: auto;
+        page-break-inside: auto;
+        perspective: none;
+        perspective-origin: 50% 50%;
+        position: static;
+        quotes: none;
+        right: auto;
+        tab-size: 8;
+        table-layout: auto;
+        text-align: inherit;
+        text-align-last: auto;
+        text-decoration: none;
+        text-indent: 0;
+        text-shadow: none;
+        text-transform: none;
+        top: auto;
+        transform: none;
+        transition: none;
+        unicode-bidi: normal;
+        user-select: none;
+        vertical-align: baseline;
+        visibility: visible;
+        white-space: normal;
+        widows: 0;
+        width: auto;
+        word-spacing: normal;
+        z-index: auto;
+      }
+    </style>
+    <style>
+      .sk-double-bounce[_ngcontent-ght-c17] {
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: auto;
+      }
+      .sk-double-bounce[_ngcontent-ght-c17] .sk-child[_ngcontent-ght-c17] {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #333;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: sk-doubleBounce 2s infinite ease-in-out;
+      }
+      .sk-double-bounce[_ngcontent-ght-c17]
+        .sk-double-bounce2[_ngcontent-ght-c17] {
+        animation-delay: -1s;
+      }
+      @keyframes sk-doubleBounce {
+        0%,
+        to {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1);
+        }
+      }
+    </style>
+    <style>
+      .head-bg__item[_ngcontent-ght-c68],
+      .head-content__item[_ngcontent-ght-c68] {
+        display: none;
+      }
+      .head-bg__item.active[_ngcontent-ght-c68],
+      .head-content__item.active[_ngcontent-ght-c68] {
+        display: block;
+      }
+    </style>
+    <style>
+      .calc-radio[_ngcontent-ght-c65] {
+        max-width: 450px;
+      }
+    </style>
   </head>
+  <body style="padding-right: 0px; overflow-y: auto">
+    <app-root ng-version="14.2.10"
+      ><ng-http-loader _nghost-ght-c23=""><!----></ng-http-loader
+      ><router-outlet></router-outlet
+      ><ng-component
+        ><div class="wrapper animate__animated animate__faster animate__fadeIn">
+          <app-header
+            ><!---->
+            <header class="header">
+              <div class="container">
+                <div class="header-wrap">
+                  <div class="header-left">
+                    <!-- <div class="header-burger"><span></span></div> -->
+                    <a routerlink="/" class="header-logo" href="/register"
+                      ><img src="/assets/img/logo.svg" alt="" />
+                      <p><span>Shao</span>Bank</p></a
+                    >
+                  </div>
+                  <div class="header-right">
+                    <div class="header-top">
+                      <div class="header-tabs">
+                        <div class="header-tabs__item active">
+                          Digital banking
+                        </div>
+                        <div class="header-tabs__item">Business</div>
+                        <div class="header-tabs__item">Insurance</div>
+                        <div class="header-tabs__item">Who we are?</div>
+                      </div>
+                      <div class="header-nav">
+                        <!----><app-auth-buttons
+                          ><div class="header-btns">
+                            <a
+                              name="signin"
+                              routerlink="/signin"
+                              class="m-btn tr"
+                              href="/signin"
+                              >Log in</a
+                            ><a
+                              routerlink="/auth/signup"
+                              class="m-btn"
+                              href="/auth/signup"
+                              >Sign up</a
+                            >
+                          </div></app-auth-buttons
+                        ><!---->
+                      </div>
+                    </div>
+                    <div class="header-bot">
+                      <div
+                        class="header-menu animate__animated animate__faster animate__fadeIn"
+                      >
+                        <a
+                          routerlink="/"
+                          routerlinkactive="active"
+                          href="/"
+                          class="active"
+                          >Digital banking</a
+                        ><a
+                          routerlink="/banking"
+                          routerlinkactive="active"
+                          href="/banking"
+                          >Banking</a
+                        ><a
+                          routerlink="/deposits"
+                          routerlinkactive="active"
+                          href="/deposits"
+                          >Deposits</a
+                        ><a
+                          routerlink="/bonds"
+                          routerlinkactive="active"
+                          href="/bonds"
+                          >Bonds</a
+                        ><a
+                          routerlink="/loans"
+                          routerlinkactive="active"
+                          href="/loans"
+                          >Lending</a
+                        ><a
+                          routerlink="/help"
+                          routerlinkactive="active"
+                          href="/help"
+                          >Help &amp; Support</a
+                        >
+                      </div>
+                      <!----><!----><!----><!----><app-socials
+                        ><div class="header-soc">
+                          <a target="_blank" href="https://t.me/shao_bank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#tg"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC90vz-9EuPViNLmWfG0ZZgw"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#yt"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://twitter.com/shaobank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#tw"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.facebook.com/shaobank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#fb"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.instagram.com/bankshao"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#inst"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.linkedin.com/company/bank-shao"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#in"
+                              ></use></svg></a
+                          ><!---->
+                        </div>
+                        <!----></app-socials
+                      >
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+              </div>
+            </header>
+            <!----><!----></app-header
+          ><router-outlet></router-outlet
+          ><ng-component _nghost-ght-c68=""
+            ><section _ngcontent-ght-c68="" class="head">
+              <div _ngcontent-ght-c68="" class="head-bg">
+                <div
+                  _ngcontent-ght-c68=""
+                  class="head-bg__item animate__animated animate__faster animate__fadeIn"
+                >
+                  <!---->
+                  <div _ngcontent-ght-c68="" class="head-bg__desk">
+                    <img
+                      _ngcontent-ght-c68=""
+                      alt=""
+                      src="assets/img/head-bg-1.webp"
+                      srcset="
+                        /assets/img/head-bg-1@2x.webp 2x,
+                        /assets/img/head-bg-1@3x.webp 3x
+                      "
+                    />
+                  </div>
+                  <!----><!---->
+                </div>
+                <div
+                  _ngcontent-ght-c68=""
+                  class="head-bg__item animate__animated animate__faster animate__fadeIn"
+                >
+                  <!---->
+                  <div _ngcontent-ght-c68="" class="head-bg__desk">
+                    <img
+                      _ngcontent-ght-c68=""
+                      alt=""
+                      src="assets/img/head-bg-2.webp"
+                      srcset="
+                        /assets/img/head-bg-2@2x.webp 2x,
+                        /assets/img/head-bg-2@3x.webp 3x
+                      "
+                    />
+                  </div>
+                  <!----><!---->
+                </div>
+                <div
+                  _ngcontent-ght-c68=""
+                  class="head-bg__item animate__animated animate__faster animate__fadeIn"
+                >
+                  <!---->
+                  <div _ngcontent-ght-c68="" class="head-bg__desk">
+                    <img
+                      _ngcontent-ght-c68=""
+                      alt=""
+                      src="assets/img/head-bg-3.webp"
+                      srcset="
+                        /assets/img/head-bg-3@2x.webp 2x,
+                        /assets/img/head-bg-3@3x.webp 3x
+                      "
+                    />
+                  </div>
+                  <!----><!---->
+                </div>
+                <div
+                  _ngcontent-ght-c68=""
+                  class="head-bg__item animate__animated animate__faster animate__fadeIn active"
+                >
+                  <!---->
+                  <div _ngcontent-ght-c68="" class="head-bg__desk">
+                    <img
+                      _ngcontent-ght-c68=""
+                      alt=""
+                      src="assets/img/head-bg-4.webp"
+                      srcset="
+                        /assets/img/head-bg-4@2x.webp 2x,
+                        /assets/img/head-bg-4@3x.webp 3x
+                      "
+                    />
+                  </div>
+                  <!----><!---->
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <div _ngcontent-ght-c68="" class="container">
+                <div _ngcontent-ght-c68="" class="row">
+                  <div _ngcontent-ght-c68="" class="col-xl-7 col-md-8">
+                    <div _ngcontent-ght-c68="" class="head-content">
+                      <div _ngcontent-ght-c68="" class="head-content__item">
+                        <div _ngcontent-ght-c68="" class="head-title">
+                          Shao Bank - <span>the way to success!</span>
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-text">
+                          <p _ngcontent-ght-c68="">
+                            Save your savings and get guaranteed returns. Make a
+                            deposit within 5 minutes and receive a fixed income
+                            every month. Save your savings and get guaranteed
+                            returns. Make a deposit within 5 minutes and receive
+                            a fixed income every month. Your account is
+                            protected by the deposit insurance system.
+                          </p>
+                        </div>
+                        <a
+                          _ngcontent-ght-c68=""
+                          routerlink="/deposits"
+                          class="m-btn"
+                          href="/deposits"
+                          >About deposits</a
+                        >
+                      </div>
+                      <div _ngcontent-ght-c68="" class="head-content__item">
+                        <div _ngcontent-ght-c68="" class="head-title">
+                          Shao Bank - <span>a look into the future.</span>
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-text">
+                          <p _ngcontent-ght-c68="">
+                            Invest in securities and earn a weekly passive
+                            income on the bank's bonds. Bonds can be bought by
+                            residents of any country, and you will gain a
+                            reliable, conservative source of profit.
+                          </p>
+                        </div>
+                        <a
+                          _ngcontent-ght-c68=""
+                          routerlink="/bonds"
+                          class="m-btn"
+                          href="/bonds"
+                          >About bonds</a
+                        >
+                      </div>
+                      <div _ngcontent-ght-c68="" class="head-content__item">
+                        <div _ngcontent-ght-c68="" class="head-title">
+                          Shao is a generous bank for active people.
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-text">
+                          <p _ngcontent-ght-c68="">
+                            Take out a loan for any purpose: property
+                            renovation, education, shopping, travel, acquisition
+                            of real estate, business development, or refinancing
+                            of existing loans. You will receive a decision on
+                            your loan application within 24 hours.
+                          </p>
+                        </div>
+                        <a
+                          _ngcontent-ght-c68=""
+                          routerlink="/loans"
+                          class="m-btn"
+                          href="/loans"
+                          >About loans</a
+                        >
+                      </div>
+                      <div
+                        _ngcontent-ght-c68=""
+                        class="head-content__item active"
+                      >
+                        <div _ngcontent-ght-c68="" class="head-title">
+                          Save and grow with Shao Bank!
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-text">
+                          <p _ngcontent-ght-c68="">
+                            We offer you the assurance that the assets and funds
+                            in your accounts are safe and secure. Take out an
+                            insurance policy, and you will know another side of
+                            life: calm and prosperous in any circumstances.
+                          </p>
+                        </div>
+                        <a
+                          _ngcontent-ght-c68=""
+                          routerlink="/insurance"
+                          class="m-btn"
+                          href="/insurance"
+                          >About Insurance</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-ght-c68="" class="head-tabs__wrap">
+                  <div
+                    _ngcontent-ght-c68=""
+                    nicescroll=""
+                    class="nicescroll-box"
+                    style="overflow: hidden; position: relative; outline: none"
+                    tabindex="1"
+                  >
+                    <div
+                      _ngcontent-ght-c68=""
+                      class="wrap"
+                      style="
+                        transition: transform 0ms ease-out 0s;
+                        transform: translate3d(0px, 0px, 0px);
+                      "
+                    >
+                      <div _ngcontent-ght-c68="" class="head-tabs">
+                        <div _ngcontent-ght-c68="" class="head-tabs__item">
+                          <h3 _ngcontent-ght-c68="">Deposits</h3>
+                          <p _ngcontent-ght-c68="">No taxes on income</p>
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-tabs__item">
+                          <h3 _ngcontent-ght-c68="">Bonds</h3>
+                          <p _ngcontent-ght-c68="">
+                            Low entry threshold from HK$400
+                          </p>
+                        </div>
+                        <div _ngcontent-ght-c68="" class="head-tabs__item">
+                          <h3 _ngcontent-ght-c68="">Loans</h3>
+                          <p _ngcontent-ght-c68="">
+                            Early repayment without fees
+                          </p>
+                        </div>
+                        <div
+                          _ngcontent-ght-c68=""
+                          class="head-tabs__item active"
+                        >
+                          <h3 _ngcontent-ght-c68="">Insurance</h3>
+                          <p _ngcontent-ght-c68="">
+                            High payout percentage - from 90%
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="ascrail2000"
+                      class="nicescroll-rails nicescroll-rails-vr"
+                      style="
+                        width: 2px;
+                        z-index: 20;
+                        cursor: default;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        opacity: 1;
+                        display: none;
+                        height: 93.5938px;
+                      "
+                    >
+                      <div
+                        class="nicescroll-cursors"
+                        style="
+                          position: relative;
+                          top: 0px;
+                          float: right;
+                          width: 2px;
+                          height: 0px;
+                          background-color: rgb(1, 126, 251);
+                          border: 0px solid rgb(255, 255, 255);
+                          background-clip: padding-box;
+                          border-radius: 0px;
+                        "
+                      ></div>
+                    </div>
+                    <div
+                      id="ascrail2000-hr"
+                      class="nicescroll-rails nicescroll-rails-hr"
+                      style="
+                        height: 2px;
+                        z-index: 20;
+                        position: absolute;
+                        left: 0px;
+                        bottom: 0px;
+                        opacity: 1;
+                        cursor: default;
+                        display: none;
+                        width: 1196px;
+                      "
+                    >
+                      <div
+                        class="nicescroll-cursors"
+                        style="
+                          position: absolute;
+                          top: 0px;
+                          height: 2px;
+                          width: 0px;
+                          background-color: rgb(1, 126, 251);
+                          border: 0px solid rgb(255, 255, 255);
+                          background-clip: padding-box;
+                          border-radius: 0px;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <main _ngcontent-ght-c68="" class="m-content">
+              <div _ngcontent-ght-c68="" class="container">
+                <div _ngcontent-ght-c68="" class="row">
+                  <div _ngcontent-ght-c68="" class="col-lg-9">
+                    <div _ngcontent-ght-c68="" class="m-title">
+                      Keep up with the times with <span>Shao Bank!</span>
+                    </div>
+                    <div _ngcontent-ght-c68="" class="m-text">
+                      <p _ngcontent-ght-c68="">
+                        Take advantage of remote banking.
+                      </p>
+                      <p _ngcontent-ght-c68="">
+                        Move up the career ladder of the bank, use useful and
+                        profitable services. The bank provides technology that
+                        makes cooperation even easier.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-ght-c68="" class="prez">
+                  <div _ngcontent-ght-c68="" class="prez-wrap">
+                    <div _ngcontent-ght-c68="" class="prez-logo">
+                      <img
+                        _ngcontent-ght-c68=""
+                        src="assets/img/logo-full.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 _ngcontent-ght-c68="">Digital Banking</h3>
+                    <p _ngcontent-ght-c68="">
+                      Create personal digital banking and do all your banking
+                      from the comfort of the screen of your device, 24/7.
+                    </p>
+                    <a
+                      _ngcontent-ght-c68=""
+                      target="_blank"
+                      href="https://www.youtube.com/watch?v=0RLwMOA0gFM"
+                      ><svg _ngcontent-ght-c68="">
+                        <use
+                          _ngcontent-ght-c68=""
+                          xlink:href="assets/img/sprite.svg#play"
+                        ></use>
+                      </svg>
+                      Shao Bank video presentation </a
+                    ><!---->
+                  </div>
+                </div>
+                <div _ngcontent-ght-c68="" class="row">
+                  <div _ngcontent-ght-c68="" class="col-lg-8">
+                    <div _ngcontent-ght-c68="" class="m-title">
+                      Make money in your spare time with <span>Shao Bank!</span>
+                    </div>
+                    <div _ngcontent-ght-c68="" class="m-text">
+                      <p _ngcontent-ght-c68="">
+                        Shao Bank is a Hong Kong subsidiary of the Chinese
+                        Global Future Enterprise Group, established in 2022.
+                        Make secure investments and earn unlimited profits.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <facade-digital-banking _ngcontent-ght-c68=""
+                  ><div class="m-tabs m-tabs_arrow">
+                    <div class="m-tabs__item active">Bank operations</div>
+                    <div class="m-tabs__item">For the customer</div>
+                  </div>
+                  <div class="works">
+                    <div
+                      class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                    >
+                      <div
+                        class="swiper-wrapper"
+                        id="swiper-wrapper-55ae45489c211066c"
+                        aria-live="off"
+                        style="
+                          transform: translate3d(-612px, 0px, 0px);
+                          transition-duration: 0ms;
+                        "
+                      >
+                        <div
+                          class="swiper-slide"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="1 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Banking</h3>
+                              <p>
+                                Purchase bonds, place deposits, transfer funds
+                                to customers and withdraw funds without any
+                                restrictions
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-1.webp" alt="" /><a
+                                routerlink="/banking"
+                                class="m-btn white sm"
+                                href="/banking"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-prev"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="2 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Lending</h3>
+                              <p>
+                                To apply for a loan, open digital banking and
+                                apply for money online.
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-2.webp" alt="" /><a
+                                routerlink="/loans"
+                                class="m-btn white sm"
+                                href="/loans"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-visible swiper-slide-active"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="3 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Insurance</h3>
+                              <p>
+                                Protect against theft of money in accounts,
+                                business failures or other insured events –
+                                simply.
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-3.webp" alt="" /><a
+                                routerlink="/insurance"
+                                class="m-btn white sm"
+                                href="/insurance"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-visible swiper-slide-next"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="4 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Business</h3>
+                              <p>
+                                Business with Shao Bank. You can become a
+                                Digital Marketer and enjoy the benefits of
+                                building a business network.
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-4.webp" alt="" /><a
+                                routerlink="/business"
+                                class="m-btn white sm"
+                                href="/business"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-visible"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="5 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Bonds</h3>
+                              <p>
+                                The Bank issues securities with different
+                                yields. Bonds have their own value - the nominal
+                                value at which the yield is paid.
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-5.webp" alt="" /><a
+                                routerlink="/bonds"
+                                class="m-btn white sm"
+                                href="/bonds"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-visible"
+                          style="margin-right: 28px"
+                          role="group"
+                          aria-label="6 / 6"
+                        >
+                          <div class="works-item">
+                            <div class="works-item__content">
+                              <h3>Deposits</h3>
+                              <p>
+                                You can plan your income for years to come: save
+                                for big purchases, retirement, children's
+                                education or other purposes.
+                              </p>
+                            </div>
+                            <div class="works-item__img">
+                              <img src="assets/img/works-6.webp" alt="" /><a
+                                routerlink="/deposits"
+                                class="m-btn white sm"
+                                href="/deposits"
+                                >Read more</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="swiper-notification"
+                        aria-live="assertive"
+                        aria-atomic="true"
+                      ></span>
+                    </div>
+                    <!----><!---->
+                  </div></facade-digital-banking
+                >
+                <div _ngcontent-ght-c68="" class="m-title">
+                  A service that <span>makes investing</span> even easier.
+                </div>
+                <div _ngcontent-ght-c68="" class="m-text">
+                  <p _ngcontent-ght-c68="">
+                    * All calculations of potential income are made in Hong Kong
+                    Dollars (HKD)
+                  </p>
+                </div>
+                <div _ngcontent-ght-c68="" class="m-tabs">
+                  <div _ngcontent-ght-c68="" class="m-tabs__item active">
+                    Bonds
+                  </div>
+                  <div _ngcontent-ght-c68="" class="m-tabs__item">Deposits</div>
+                </div>
+                <div _ngcontent-ght-c68="" class="calc-wrap">
+                  <!----><facade-calc-bonds
+                    _ngcontent-ght-c68=""
+                    class="animate__animated animate__faster animate__fadeIn"
+                    _nghost-ght-c65=""
+                    ><div _ngcontent-ght-c65="" class="calc">
+                      <form
+                        _ngcontent-ght-c65=""
+                        novalidate="true"
+                        class="row d-flex align-items-center ng-untouched ng-pristine ng-valid"
+                        autocomplete="off"
+                      >
+                        <div _ngcontent-ght-c65="" class="col-lg-6">
+                          <div _ngcontent-ght-c65="" class="calc-title">
+                            Calculation of earnings
+                          </div>
+                          <div _ngcontent-ght-c65="" class="m-input__title">
+                            Amount of funds
+                          </div>
+                          <label _ngcontent-ght-c65="" class="m-input"
+                            ><div _ngcontent-ght-c65="" class="m-input__box">
+                              <input
+                                _ngcontent-ght-c65=""
+                                type="text"
+                                maxlength="18"
+                                placeholder="0.00"
+                                class="ng-untouched ng-pristine ng-valid"
+                              />
+                              <div
+                                _ngcontent-ght-c65=""
+                                id="slider"
+                                class="m-input__slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
+                              >
+                                <div
+                                  class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"
+                                  style="width: 0%"
+                                ></div>
+                                <span
+                                  tabindex="0"
+                                  class="ui-slider-handle ui-corner-all ui-state-default"
+                                  style="left: 0%"
+                                ></span>
+                              </div>
+                            </div>
+                            <span _ngcontent-ght-c65="">
+                              min 80,000 - max 1,000,000 HKD
+                            </span></label
+                          >
+                          <div _ngcontent-ght-c65="" class="m-input__title">
+                            Bond series
+                          </div>
+                          <div _ngcontent-ght-c65="" class="calc-radio">
+                            <label _ngcontent-ght-c65="" class="active"
+                              ><span _ngcontent-ght-c65="">AA 3391</span></label
+                            ><label _ngcontent-ght-c65=""
+                              ><span _ngcontent-ght-c65="">BB 1720</span></label
+                            ><label _ngcontent-ght-c65=""
+                              ><span _ngcontent-ght-c65="">CC 2379</span></label
+                            ><label _ngcontent-ght-c65=""
+                              ><span _ngcontent-ght-c65="">DD 3267</span></label
+                            ><!---->
+                          </div>
+                          <div _ngcontent-ght-c65="" class="calc-info">
+                            <div _ngcontent-ght-c65="" class="calc-info__item">
+                              <h3 _ngcontent-ght-c65="">Yield each day</h3>
+                              <p _ngcontent-ght-c65="">0.45%</p>
+                            </div>
+                            <div _ngcontent-ght-c65="" class="calc-info__item">
+                              <h3 _ngcontent-ght-c65="">Number of bonds</h3>
+                              <p _ngcontent-ght-c65="">10</p>
+                            </div>
+                            <div _ngcontent-ght-c65="" class="calc-info__item">
+                              <h3 _ngcontent-ght-c65="">Maturity</h3>
+                              <p _ngcontent-ght-c65="">3 year</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div _ngcontent-ght-c65="" class="col-lg-6">
+                          <div _ngcontent-ght-c65="" class="calc-box">
+                            <div _ngcontent-ght-c65="" class="calc-title">
+                              Your income
+                            </div>
+                            <div _ngcontent-ght-c65="" class="calc-table">
+                              <table _ngcontent-ght-c65="">
+                                <thead _ngcontent-ght-c65="">
+                                  <tr _ngcontent-ght-c65="">
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__title"
+                                      >
+                                        Data
+                                      </div>
+                                    </td>
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__title"
+                                      >
+                                        Total
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </thead>
+                                <tbody _ngcontent-ght-c65="">
+                                  <tr _ngcontent-ght-c65="">
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__text"
+                                      >
+                                        Interest rate
+                                      </div>
+                                    </td>
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__val"
+                                      >
+                                        162% <span>every year</span>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr _ngcontent-ght-c65="">
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__text"
+                                      >
+                                        Income over 1 year
+                                      </div>
+                                    </td>
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__val"
+                                      >
+                                        129,600
+                                        <span _ngcontent-ght-c65="">HKD</span>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr _ngcontent-ght-c65="">
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__text"
+                                      >
+                                        Lifetime yield
+                                      </div>
+                                    </td>
+                                    <td _ngcontent-ght-c65="">
+                                      <div
+                                        _ngcontent-ght-c65=""
+                                        class="calc-table__val"
+                                      >
+                                        388,800
+                                        <span _ngcontent-ght-c65="">HKD</span>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div _ngcontent-ght-c65="" class="calc-btns">
+                              <a
+                                _ngcontent-ght-c65=""
+                                routerlink="/bonds"
+                                class="calc-link"
+                                href="/bonds"
+                                ><img
+                                  _ngcontent-ght-c65=""
+                                  src="assets/img/calc-link.svg"
+                                  alt=""
+                                />
+                                Learn more about Shao bonds </a
+                              ><!----><a
+                                _ngcontent-ght-c65=""
+                                routerlink="/account/bonds"
+                                class="m-btn"
+                                href="/account/bonds"
+                                >Buy Bonds</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div></facade-calc-bonds
+                  ><!---->
+                </div>
+                <!---->
+                <div _ngcontent-ght-c68="" class="m-title">
+                  <span>Shao Bank's</span> concept is to develop new
+                  technologies.
+                </div>
+                <div _ngcontent-ght-c68="" class="row">
+                  <div _ngcontent-ght-c68="" class="col-lg-4">
+                    <div _ngcontent-ght-c68="" class="benefits">
+                      <div _ngcontent-ght-c68="" class="benefits-logo">
+                        <img
+                          _ngcontent-ght-c68=""
+                          src="assets/img/logo-full.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h3 _ngcontent-ght-c68="">
+                        Deposit management: Opening, profit accrual, return
+                      </h3>
+                      <p _ngcontent-ght-c68="">
+                        With Shao Bank, money works without your participation.
+                        Go about your business and earn extra passive income at
+                        a high rate.
+                      </p>
+                      <a
+                        _ngcontent-ght-c68=""
+                        routerlink="/deposits"
+                        class="m-btn white sm"
+                        href="/deposits"
+                        >Read more</a
+                      >
+                    </div>
+                  </div>
+                  <div _ngcontent-ght-c68="" class="col-lg-8">
+                    <div
+                      _ngcontent-ght-c68=""
+                      class="benefits benefits_sm benefits_2"
+                    >
+                      <div _ngcontent-ght-c68="" class="benefits-logo">
+                        <img
+                          _ngcontent-ght-c68=""
+                          src="assets/img/logo-full.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h3 _ngcontent-ght-c68="">
+                        Bond management: Purchasing, earning income, redemption
+                      </h3>
+                      <p _ngcontent-ght-c68="">
+                        Using innovative P2P (Peer-to-Peer) technology,
+                        purchasing securities via your own Digital Banking is
+                        incredibly easy.
+                      </p>
+                      <a
+                        _ngcontent-ght-c68=""
+                        routerlink="/bonds"
+                        class="m-btn white sm"
+                        href="/bonds"
+                        >Read more</a
+                      >
+                    </div>
+                    <div _ngcontent-ght-c68="" class="row">
+                      <div _ngcontent-ght-c68="" class="col-md-6">
+                        <div
+                          _ngcontent-ght-c68=""
+                          class="benefits benefits_sm benefits_3"
+                        >
+                          <img
+                            _ngcontent-ght-c68=""
+                            src="assets/img/benefits-bg-3.webp"
+                            alt=""
+                          />
+                          <div _ngcontent-ght-c68="" class="benefits-logo">
+                            <img
+                              _ngcontent-ght-c68=""
+                              src="assets/img/logo-full-dark.svg"
+                              alt=""
+                            />
+                          </div>
+                          <h3 _ngcontent-ght-c68="">
+                            Shao card - issued online to all registered
+                            customers
+                          </h3>
+                          <a
+                            _ngcontent-ght-c68=""
+                            routerlink="/auth/signin"
+                            class="m-btn white sm"
+                            href="/auth/signin"
+                            >Read more</a
+                          >
+                        </div>
+                      </div>
+                      <div _ngcontent-ght-c68="" class="col-md-6">
+                        <div
+                          _ngcontent-ght-c68=""
+                          class="benefits benefits_sm benefits_4"
+                        >
+                          <div _ngcontent-ght-c68="" class="benefits-logo">
+                            <img
+                              _ngcontent-ght-c68=""
+                              src="assets/img/logo-full-2.svg"
+                              alt=""
+                            />
+                          </div>
+                          <h3 _ngcontent-ght-c68="">
+                            Go Insurance – protect your wellbeing
+                          </h3>
+                          <a
+                            _ngcontent-ght-c68=""
+                            routerlink="/insurance"
+                            class="m-btn white sm"
+                            href="/insurance"
+                            >Read more</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main></ng-component
+          ><!---->
+          <footer class="footer">
+            <div class="container">
+              <div class="footer-mob">
+                <app-mobile-menu
+                  ><div accordion="" class="accordion" style="width: 100%">
+                    <div class="accordion__item">
+                      <div class="accordion__head">
+                        Digital banking
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                      <div class="accordion__body">
+                        <a
+                          routerlink="/"
+                          routerlinkactive="active"
+                          href="/"
+                          class="active"
+                          >Digital banking</a
+                        ><a
+                          routerlink="/banking"
+                          routerlinkactive="active"
+                          href="/banking"
+                          >Banking</a
+                        ><a
+                          routerlink="/deposits"
+                          routerlinkactive="active"
+                          href="/deposits"
+                          >Deposits</a
+                        ><a
+                          routerlink="/bonds"
+                          routerlinkactive="active"
+                          href="/bonds"
+                          >Bonds</a
+                        ><a
+                          routerlink="/loans"
+                          routerlinkactive="active"
+                          href="/loans"
+                          >Lending</a
+                        ><a
+                          routerlink="/help"
+                          routerlinkactive="active"
+                          href="/help"
+                          >Help &amp; Support</a
+                        >
+                      </div>
+                    </div>
+                    <div class="accordion__item">
+                      <div class="accordion__head">
+                        Business
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                      <div class="accordion__body">
+                        <a
+                          routerlink="/business"
+                          routerlinkactive="active"
+                          href="/business"
+                          >Business</a
+                        ><a
+                          routerlink="/career"
+                          routerlinkactive="active"
+                          href="/career"
+                          >Careers</a
+                        ><a
+                          routerlink="/market-analysis"
+                          routerlinkactive="active"
+                          href="/market-analysis"
+                          >Market Analysis</a
+                        ><a
+                          routerlink="/partners"
+                          routerlinkactive="active"
+                          href="/partners"
+                          >Our Affiliates</a
+                        ><a
+                          routerlink="/why"
+                          routerlinkactive="active"
+                          href="/why"
+                          >Why Shao Bank?</a
+                        >
+                      </div>
+                    </div>
+                    <div class="accordion__item">
+                      <div class="accordion__head">
+                        Insurance
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                      <div class="accordion__body">
+                        <a
+                          routerlink="/insurance"
+                          routerlinkactive="active"
+                          href="/insurance"
+                          >Insurance</a
+                        ><a
+                          routerlink="/security"
+                          routerlinkactive="active"
+                          href="/security"
+                          >Protecting your account</a
+                        ><a
+                          routerlink="/fraud-warning"
+                          routerlinkactive="active"
+                          href="/fraud-warning"
+                          >Fraud prevention</a
+                        ><a
+                          routerlink="/series"
+                          routerlinkactive="active"
+                          href="/series"
+                          >Bonds series</a
+                        >
+                      </div>
+                    </div>
+                    <div class="accordion__item">
+                      <div class="accordion__head">
+                        Who we are?
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                      <div class="accordion__body">
+                        <a
+                          routerlink="/about"
+                          routerlinkactive="active"
+                          href="/about"
+                          >Who we are?</a
+                        ><a
+                          routerlink="/documents"
+                          routerlinkactive="active"
+                          href="/documents"
+                          >Documentation</a
+                        ><a
+                          routerlink="/roadmap"
+                          routerlinkactive="active"
+                          href="/roadmap"
+                          >Roadmap</a
+                        ><a
+                          routerlink="/white-paper"
+                          routerlinkactive="active"
+                          href="/white-paper"
+                          >White Paper</a
+                        >
+                      </div>
+                    </div>
+                  </div></app-mobile-menu
+                >
+              </div>
+              <div class="row d-none d-sm-flex">
+                <div class="col-lg-3 col-6">
+                  <div class="footer-title">Digital banking</div>
+                  <div class="footer-menu">
+                    <a
+                      routerlink="/"
+                      routerlinkactive="active"
+                      href="/"
+                      class="active"
+                      >Digital banking</a
+                    ><a
+                      routerlink="/banking"
+                      routerlinkactive="active"
+                      href="/banking"
+                      >Banking</a
+                    ><a
+                      routerlink="/deposits"
+                      routerlinkactive="active"
+                      href="/deposits"
+                      >Deposits</a
+                    ><a
+                      routerlink="/bonds"
+                      routerlinkactive="active"
+                      href="/bonds"
+                      >Bonds</a
+                    ><a
+                      routerlink="/loans"
+                      routerlinkactive="active"
+                      href="/loans"
+                      >Lending</a
+                    ><a
+                      routerlink="/help"
+                      routerlinkactive="active"
+                      href="/help"
+                      >Help &amp; Support</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="footer-title">Business</div>
+                  <div class="footer-menu">
+                    <a
+                      routerlink="/business"
+                      routerlinkactive="active"
+                      href="/business"
+                      >Business</a
+                    ><a
+                      routerlink="/career"
+                      routerlinkactive="active"
+                      href="/career"
+                      >Careers</a
+                    ><a
+                      routerlink="/market-analysis"
+                      routerlinkactive="active"
+                      href="/market-analysis"
+                      >Market Analysis</a
+                    ><a
+                      routerlink="/partners"
+                      routerlinkactive="active"
+                      href="/partners"
+                      >Our Affiliates</a
+                    ><a routerlink="/why" routerlinkactive="active" href="/why"
+                      >Why Shao Bank?</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="footer-title">Insurance</div>
+                  <div class="footer-menu">
+                    <a
+                      routerlink="/insurance"
+                      routerlinkactive="active"
+                      href="/insurance"
+                      >Insurance</a
+                    ><a
+                      routerlink="/security"
+                      routerlinkactive="active"
+                      href="/security"
+                      >Protecting your account</a
+                    ><a
+                      routerlink="/fraud-warning"
+                      routerlinkactive="active"
+                      href="/fraud-warning"
+                      >Fraud prevention</a
+                    ><a
+                      routerlink="/series"
+                      routerlinkactive="active"
+                      href="/series"
+                      >Bonds series</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                  <div class="footer-title">Who we are?</div>
+                  <div class="footer-menu">
+                    <a
+                      routerlink="/about"
+                      routerlinkactive="active"
+                      href="/about"
+                      >Who we are?</a
+                    ><a
+                      routerlink="/documents"
+                      routerlinkactive="active"
+                      href="/documents"
+                      >Documentation</a
+                    ><a
+                      routerlink="/roadmap"
+                      routerlinkactive="active"
+                      href="/roadmap"
+                      >Roadmap</a
+                    ><a
+                      routerlink="/white-paper"
+                      routerlinkactive="active"
+                      href="/white-paper"
+                      >White Paper</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="footer-wrap">
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-3">
+                    <a routerlink="/" class="footer-logo" href="/"
+                      ><img src="assets/img/logo.svg" alt="" />
+                      <p><span>Shao</span>Bank</p></a
+                    >
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="footer-nav">
+                      <div class="footer-submenu">
+                        <a
+                          target="_blank"
+                          href="/docs/Privacy_Policy_Shao_Bank.pdf"
+                          >Privacy Policy</a
+                        ><a
+                          target="_blank"
+                          href="/docs/Privacy_Agreement_Shao_Bank.pdf"
+                          >Privacy Agreement</a
+                        >
+                      </div>
+                      <app-socials class="footer-soc"
+                        ><div class="footer-soc">
+                          <a target="_blank" href="https://t.me/shao_bank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#tg"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC90vz-9EuPViNLmWfG0ZZgw"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#yt"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://twitter.com/shaobank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#tw"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.facebook.com/shaobank"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#fb"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.instagram.com/bankshao"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#inst"
+                              ></use></svg></a
+                          ><a
+                            target="_blank"
+                            href="https://www.linkedin.com/company/bank-shao"
+                            ><svg>
+                              <use
+                                xlink:href="assets/img/sprite.svg#in"
+                              ></use></svg></a
+                          ><!---->
+                        </div>
+                        <!----></app-socials
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-text">
+                <p>
+                  Official website of Shao Bank. Shao is a universal,
+                  technological bank focused on providing remote banking
+                  services to customers around the world. It provides credit,
+                  bond and deposit services to individuals and businesses. It is
+                  part of the Global Future Enterprise Group and is based in
+                  Hong Kong and the United Kingdom. Shao Bank is a member of the
+                  mandatory deposit insurance system. Shao processes customers'
+                  personal data in accordance with the Personal Information
+                  Protection Law. Therefore, if customers provide false or
+                  outdated information about themselves, they bear the risk of
+                  any negative consequences caused by those actions. The bank
+                  reserves the right to refuse to issue a loan without
+                  explaining the reasons and request additional documents with
+                  an extension of the application review period. Shao Bank
+                  independently determines the terms and procedure of affiliate
+                  program and bonus tokens accrual. The Bank may at its own
+                  discretion impose restrictions on the list of services for
+                  which tokens are not credited.
+                </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </ng-component>
+    </app-root>
+  </body>
 </html>

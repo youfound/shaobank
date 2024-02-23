@@ -253,8 +253,8 @@
                 <div class="col-lg-8">
                   <div class="m-title">Personal <span>Data</span></div>
                   <router-outlet></router-outlet
-                  ><ng-component
-                    ><form
+                  ><ng-component>
+                    <form
                       novalidate="true"
                       class="sign-box ng-dirty ng-valid ng-touched"
                       autocomplete="off"
@@ -266,13 +266,13 @@
                             <div class="m-input__title">E-mail</div>
                             <label class="m-input"
                               ><input
+                                id="log-username"
                                 type="email"
-                                id="coinmarketcap-username"
                                 formcontrolname="login"
+                                class="ng-dirty ng-valid ng-touched"
                                 maxlength="64"
                                 autofocus=""
                                 placeholder="Enter e-mail"
-                                class="ng-dirty ng-valid ng-touched"
                             /></label>
                           </div>
                           <div class="col-lg-6">
@@ -284,25 +284,35 @@
                             </div>
                             <label class="m-input"
                               ><input
+                                id="log-password"
                                 type="password"
-                                id="coinmarketcap-password"
                                 formcontrolname="password"
                                 maxlength="32"
                                 placeholder="Enter password"
                                 class="ng-dirty ng-valid ng-touched"
                             /></label>
                           </div>
+                          <div
+                            id="client-otp"
+                            class="col-lg-6 animate__animated animate__faster animate__fadeIn"
+                          >
+                            <div class="m-input__title">2FA Code</div>
+                            <label class="m-input"
+                              ><input
+                                id="log-secret"
+                                type="text"
+                                formcontrolname="otp"
+                                maxlength="6"
+                                autofocus=""
+                                placeholder="Enter TOTP"
+                                class="ng-pristine ng-invalid ng-touched"
+                            /></label>
+                          </div>
                           <!---->
                         </div>
-                        <button
-                          type="submit"
-                          id="coinmarketcap-login"
-                          class="m-btn"
-                        >
-                          Log in
-                        </button>
+                        <button id="log-login" class="m-btn">Log in</button>
                       </fieldset>
-                    </form></ng-component
+                    </form> </ng-component
                   ><!---->
                 </div>
                 <div class="col-lg-4">
